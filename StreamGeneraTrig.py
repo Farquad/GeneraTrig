@@ -30,7 +30,7 @@ if not Bottone:
 
 #---simpy
 
-from sympy import *
+from sympy import symbols, Function, init_printing, expand, simplify, factor, collect, latex
 from sympy.parsing.sympy_parser import parse_expr
 x, y, z = symbols('x y z')
 k, m, n = symbols('k m n', integer=True)
